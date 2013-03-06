@@ -1,0 +1,114 @@
+body {
+  font-size: 2em;
+  background: #EEE;
+  color: #222;
+  background-position: fixed;
+  margin-top: 120px;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color:green;
+}
+
+.progress {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left : 0px;
+  margin: 0px;
+  color: #222;
+  background: #777 url(../images/ka-gradient.png);
+  padding:4px;
+  font-size: 1em;
+  border-width: 0 0 2px;
+  border-color: #444;
+  border-style: solid;
+}
+
+.progress p {
+  float: left;
+}
+
+.progress a {
+}
+
+.progress a:link {
+  float: right;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0px 10px 3px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #1a8000 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#0fbf24), to(#2e8a00));
+  background: -moz-linear-gradient(top, #0fbf24, #2e8a00);
+  margin: 35px 15px 0 0;
+} 
+.progress a:hover {
+  background: #2e8a00;
+}
+
+.progress a img {
+  height: 25px;
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+}
+
+h2.title {
+  float: left;
+  margin: .83em .2em;
+}
+
+.file-name {
+  float: left;
+  font-size: 25px;
+}
+
+
+a.practice-link {
+  float: right;
+
+  margin: 1.2em .2em;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #d91c71 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc3f94), to(#fc0574));
+  background: -moz-linear-gradient(top, #fc3f94, #fc0574); 
+
+}
+
+
+a.practice-link:hover {
+  background: #e62097;
+}
+
+.practice-link img {
+  position: relative;
+  height: 30px;
+  top: 3px;
+
+}
+
+.flow-player .fp-buffer {
+  background: #222 !important;
+}
